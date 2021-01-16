@@ -43,7 +43,7 @@ prepend = ["jlord", "daimajia", "mdo", "schacon", "mattt",
 
 
 for user in prepend:
-    for t in range(0,2):
+    for t in range(1,100):
         string = "https://github.com/{}?page={}&tab=followers".format(user,t)
         driver.get(string)
         time.sleep(1)
